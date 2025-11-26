@@ -1,0 +1,35 @@
+{
+  "id": "ambient-playlists",
+  "title": "Ambient Playlists",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "description": "<p>Allows playlists to play ambiently in scenes. Useful for Bards, Bands, and more.</p>",
+  "authors": [
+    {
+      "name": "Mr. Beasley",
+      "email": "jordanbeasleymma@gmail.com",
+      "discord": "gamemasterbeas",
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/themrbeasley/ambient-playlistsv",
+  "flags": {
+    "canUpload": true
+  },
+  "packs": [
+    {
+      "name": "ambient-playlist-macros",
+      "label": "Ambient Playlist Macros",
+      "path": "packs/ambient-playlist-macros",
+      "type": "Macro",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    }
+  ]
+}
