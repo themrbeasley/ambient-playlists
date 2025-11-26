@@ -31,5 +31,8 @@
       },
       "flags": {}
     }
+  ],
+  "scripts": [
+    "scripts/ambient-playlists.js"
   ]
 }
